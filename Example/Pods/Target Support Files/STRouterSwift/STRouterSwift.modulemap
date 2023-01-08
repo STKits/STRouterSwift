@@ -1,0 +1,6 @@
+framework module STRouterSwift {
+  umbrella header "STRouterSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

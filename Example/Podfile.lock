@@ -1,0 +1,16 @@
+PODS:
+  - STRouterSwift (0.1.0)
+
+DEPENDENCIES:
+  - STRouterSwift (from `../`)
+
+EXTERNAL SOURCES:
+  STRouterSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  STRouterSwift: b91a5c41b0038aba7a134f01245e73d86b18fcc9
+
+PODFILE CHECKSUM: 9ba827be91c0def8586d4775242a2bf4f66ce0c7
+
+COCOAPODS: 1.11.3

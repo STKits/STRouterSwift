@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		124CF4274F577FF863F5A151F52BDFB2 /* STRouterNavigatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1970BC18233A0198821CEF5A8B28FD /* STRouterNavigatorProtocol.swift */; };
+		1FA18F8165313391CBA6FF10D71D02A4 /* STRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53799BEA508DB51B3C58309A7EBF6296 /* STRouter.swift */; };
+		51B3BDF5D584993866F0E690C6A8B7D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		727BF102FE091F41FEED2CA2BD893C39 /* STRouterTransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2CDF527524A0FB59D207E7DF452BD /* STRouterTransitionType.swift */; };
+		8B8185E2BF901566837E10BCB460C365 /* Pods-STRouterSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D95404F4B50845218CED421490EB81 /* Pods-STRouterSwift_Tests-dummy.m */; };
+		9FBFAFE93C3762003B3D78D7E383875B /* Pods-STRouterSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E44DC4DFE5F5779E82678D13B2B0D294 /* Pods-STRouterSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A831C9CB3ADBA40DB63550B709646368 /* STRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17755CB502A0A5EEBE74E0AC5443AB2B /* STRouterProtocol.swift */; };
+		C72D8F8FFC1030647BCFB301B193B602 /* STRouterViewControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8F4DCE007707C7FBCD22493BDC3525 /* STRouterViewControllerType.swift */; };
+		D34EAA36EE0F57FD73CD2DE3767E58B9 /* Pods-STRouterSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B21E27D504F57F59F3C5240E22936D9 /* Pods-STRouterSwift_Example-dummy.m */; };
+		D5F22C9B986211C590B581C347FA68A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EEE2F4CC1550E6E5D637A26B37ABD685 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EF9033FD208F7D06F1A5CEF9F07F0D5F /* Pods-STRouterSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF7D5510B200D8ABE91BDB4E63E96DA /* Pods-STRouterSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F54F803ADD3F86ADA04CCCB6BAEB4DCA /* STRouterSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D1DE61C4BC1E6AEC86156BB6BE2CCC /* STRouterSwift-dummy.m */; };
+		F6A0F7143CF049BB8EF88BC70727F39C /* STRouterSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E17920F375AD25DEE6F709603DFFF82 /* STRouterSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		023F5174169A3A5C95C98A63193DD3B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480817A292353ACA61A406CC4F1A8AC8;
+			remoteInfo = "Pods-STRouterSwift_Example";
+		};
+		72642CB2B9AD3552DBCD94B95298E7D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CCBA06FEB6FE3B9F3A05993D273D49D;
+			remoteInfo = STRouterSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11D1DE61C4BC1E6AEC86156BB6BE2CCC /* STRouterSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STRouterSwift-dummy.m"; sourceTree = "<group>"; };
+		14F4673ADA87D7A52E1965E4D93ECFFB /* STRouterSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = STRouterSwift; path = STRouterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1593A570177FC8FCA58597D8590F84EB /* Pods-STRouterSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STRouterSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		17755CB502A0A5EEBE74E0AC5443AB2B /* STRouterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STRouterProtocol.swift; path = STRouterSwift/Classes/STRouterProtocol.swift; sourceTree = "<group>"; };
+		1E17920F375AD25DEE6F709603DFFF82 /* STRouterSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STRouterSwift-umbrella.h"; sourceTree = "<group>"; };
+		267B4ABA86B60C72CA38511B2EB14061 /* Pods-STRouterSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STRouterSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2ABC39B04A144247A1052EC0248954A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2B85742B00CD3AD587DA09DBD744CBD6 /* Pods-STRouterSwift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-STRouterSwift_Tests"; path = Pods_STRouterSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3717DB5BE5FB4E9B753D0FD4DAEDB3FF /* Pods-STRouterSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STRouterSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		450308ED8C561CE32DD5AB5E28DC327D /* Pods-STRouterSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STRouterSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		454EB511D71DE708BBFB5882D4AB3798 /* Pods-STRouterSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-STRouterSwift_Example.modulemap"; sourceTree = "<group>"; };
+		49D95404F4B50845218CED421490EB81 /* Pods-STRouterSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-STRouterSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		4B21E27D504F57F59F3C5240E22936D9 /* Pods-STRouterSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-STRouterSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		53799BEA508DB51B3C58309A7EBF6296 /* STRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STRouter.swift; path = STRouterSwift/Classes/STRouter.swift; sourceTree = "<group>"; };
+		57473A53B5F4104899A716DE6A757144 /* STRouterSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STRouterSwift-prefix.pch"; sourceTree = "<group>"; };
+		620CE93CD3717EBEDCC638BC761C4AEC /* Pods-STRouterSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STRouterSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AF7D5510B200D8ABE91BDB4E63E96DA /* Pods-STRouterSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-STRouterSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		6E82D48310E75B961B5665C797B73FBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7962DCE0D3D9D6588D32D81DBB16CB4A /* Pods-STRouterSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-STRouterSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7B25688DB779360DDEF26B936B7FF649 /* Pods-STRouterSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STRouterSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7C1970BC18233A0198821CEF5A8B28FD /* STRouterNavigatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STRouterNavigatorProtocol.swift; path = STRouterSwift/Classes/STRouterNavigatorProtocol.swift; sourceTree = "<group>"; };
+		85F2CDF527524A0FB59D207E7DF452BD /* STRouterTransitionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STRouterTransitionType.swift; path = STRouterSwift/Classes/STRouterTransitionType.swift; sourceTree = "<group>"; };
+		9D313FCCD65FFB11F6AA047DB947052E /* Pods-STRouterSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-STRouterSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6E99034334AC90B9CB4D3B4A75F3D0B /* Pods-STRouterSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STRouterSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A8393ABF9F4912B502030285322D25D7 /* STRouterSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = STRouterSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA0F292263364A371244EB22C990546B /* STRouterSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STRouterSwift.release.xcconfig; sourceTree = "<group>"; };
+		BC8696C2FE5D8033A0B556ED4F07B408 /* Pods-STRouterSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-STRouterSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		CB19312C7FBB16BF9226BC014B791493 /* STRouterSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = STRouterSwift.modulemap; sourceTree = "<group>"; };
+		CC837AA4EDD9D4203F1E2AC9C1C6DB19 /* Pods-STRouterSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STRouterSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CD71149121ED372F3F5223088CCD301F /* STRouterSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STRouterSwift.debug.xcconfig; sourceTree = "<group>"; };
+		D9F3B08DB7C98C6D00675227FB3305D4 /* Pods-STRouterSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-STRouterSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE4E50DECA09DAE6F4551C2014E629E3 /* STRouterSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "STRouterSwift-Info.plist"; sourceTree = "<group>"; };
+		E44DC4DFE5F5779E82678D13B2B0D294 /* Pods-STRouterSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-STRouterSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F33DF51EC9FE756BC6F453F760CCF080 /* Pods-STRouterSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-STRouterSwift_Example"; path = Pods_STRouterSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8F4DCE007707C7FBCD22493BDC3525 /* STRouterViewControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STRouterViewControllerType.swift; path = STRouterSwift/Classes/STRouterViewControllerType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		465FDA5743CE806118110A304E76850A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE2F4CC1550E6E5D637A26B37ABD685 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595B392BB24370DD9861E61647C60D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B3BDF5D584993866F0E690C6A8B7D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B153040990C2D2B648061D99C937D077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F22C9B986211C590B581C347FA68A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AE36C1F44D437A1A8DB1145E8D92205 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9634952A6D6DB87232D46A85A62205B /* Pods-STRouterSwift_Example */,
+				DC295EDADB8B673D213B751CF1B53B3A /* Pods-STRouterSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A1BFDE17169C11A3ACF73794A23BC26 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				972C676D37646538EFFA29BC7CF3FE3E /* STRouterSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		86C9992D413E34D43CD433D3E6E3F007 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB19312C7FBB16BF9226BC014B791493 /* STRouterSwift.modulemap */,
+				11D1DE61C4BC1E6AEC86156BB6BE2CCC /* STRouterSwift-dummy.m */,
+				DE4E50DECA09DAE6F4551C2014E629E3 /* STRouterSwift-Info.plist */,
+				57473A53B5F4104899A716DE6A757144 /* STRouterSwift-prefix.pch */,
+				1E17920F375AD25DEE6F709603DFFF82 /* STRouterSwift-umbrella.h */,
+				CD71149121ED372F3F5223088CCD301F /* STRouterSwift.debug.xcconfig */,
+				AA0F292263364A371244EB22C990546B /* STRouterSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/STRouterSwift";
+			sourceTree = "<group>";
+		};
+		972C676D37646538EFFA29BC7CF3FE3E /* STRouterSwift */ = {
+			isa = PBXGroup;
+			children = (
+				53799BEA508DB51B3C58309A7EBF6296 /* STRouter.swift */,
+				7C1970BC18233A0198821CEF5A8B28FD /* STRouterNavigatorProtocol.swift */,
+				17755CB502A0A5EEBE74E0AC5443AB2B /* STRouterProtocol.swift */,
+				85F2CDF527524A0FB59D207E7DF452BD /* STRouterTransitionType.swift */,
+				FF8F4DCE007707C7FBCD22493BDC3525 /* STRouterViewControllerType.swift */,
+				F2625410B40C10889B390B55A15F4B5D /* Pod */,
+				86C9992D413E34D43CD433D3E6E3F007 /* Support Files */,
+			);
+			name = STRouterSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7A1BFDE17169C11A3ACF73794A23BC26 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F00B8DD258DEE8B36C3585D9909F313A /* Products */,
+				1AE36C1F44D437A1A8DB1145E8D92205 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC295EDADB8B673D213B751CF1B53B3A /* Pods-STRouterSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC8696C2FE5D8033A0B556ED4F07B408 /* Pods-STRouterSwift_Tests.modulemap */,
+				D9F3B08DB7C98C6D00675227FB3305D4 /* Pods-STRouterSwift_Tests-acknowledgements.markdown */,
+				1593A570177FC8FCA58597D8590F84EB /* Pods-STRouterSwift_Tests-acknowledgements.plist */,
+				49D95404F4B50845218CED421490EB81 /* Pods-STRouterSwift_Tests-dummy.m */,
+				450308ED8C561CE32DD5AB5E28DC327D /* Pods-STRouterSwift_Tests-Info.plist */,
+				E44DC4DFE5F5779E82678D13B2B0D294 /* Pods-STRouterSwift_Tests-umbrella.h */,
+				620CE93CD3717EBEDCC638BC761C4AEC /* Pods-STRouterSwift_Tests.debug.xcconfig */,
+				7B25688DB779360DDEF26B936B7FF649 /* Pods-STRouterSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-STRouterSwift_Tests";
+			path = "Target Support Files/Pods-STRouterSwift_Tests";
+			sourceTree = "<group>";
+		};
+		F00B8DD258DEE8B36C3585D9909F313A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F33DF51EC9FE756BC6F453F760CCF080 /* Pods-STRouterSwift_Example */,
+				2B85742B00CD3AD587DA09DBD744CBD6 /* Pods-STRouterSwift_Tests */,
+				14F4673ADA87D7A52E1965E4D93ECFFB /* STRouterSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2625410B40C10889B390B55A15F4B5D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6E82D48310E75B961B5665C797B73FBF /* LICENSE */,
+				2ABC39B04A144247A1052EC0248954A6 /* README.md */,
+				A8393ABF9F4912B502030285322D25D7 /* STRouterSwift.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F9634952A6D6DB87232D46A85A62205B /* Pods-STRouterSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				454EB511D71DE708BBFB5882D4AB3798 /* Pods-STRouterSwift_Example.modulemap */,
+				9D313FCCD65FFB11F6AA047DB947052E /* Pods-STRouterSwift_Example-acknowledgements.markdown */,
+				267B4ABA86B60C72CA38511B2EB14061 /* Pods-STRouterSwift_Example-acknowledgements.plist */,
+				4B21E27D504F57F59F3C5240E22936D9 /* Pods-STRouterSwift_Example-dummy.m */,
+				7962DCE0D3D9D6588D32D81DBB16CB4A /* Pods-STRouterSwift_Example-frameworks.sh */,
+				3717DB5BE5FB4E9B753D0FD4DAEDB3FF /* Pods-STRouterSwift_Example-Info.plist */,
+				6AF7D5510B200D8ABE91BDB4E63E96DA /* Pods-STRouterSwift_Example-umbrella.h */,
+				CC837AA4EDD9D4203F1E2AC9C1C6DB19 /* Pods-STRouterSwift_Example.debug.xcconfig */,
+				A6E99034334AC90B9CB4D3B4A75F3D0B /* Pods-STRouterSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-STRouterSwift_Example";
+			path = "Target Support Files/Pods-STRouterSwift_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22F9C35CD431892A772446896A72BC8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9033FD208F7D06F1A5CEF9F07F0D5F /* Pods-STRouterSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7326631D38FD133F569ADA35116A61F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBFAFE93C3762003B3D78D7E383875B /* Pods-STRouterSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E244D3EB3612DD82AE529E2DF5EE60E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A0F7143CF049BB8EF88BC70727F39C /* STRouterSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D6745674B57D202A326CBFDC4321BAA /* Pods-STRouterSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B67788316DB9E5A0F7DA8F28DE9D23FC /* Build configuration list for PBXNativeTarget "Pods-STRouterSwift_Tests" */;
+			buildPhases = (
+				A7326631D38FD133F569ADA35116A61F /* Headers */,
+				4AA38F027C315E5E67B380860583559E /* Sources */,
+				B153040990C2D2B648061D99C937D077 /* Frameworks */,
+				E70696B6897F8FF7353C898DAC3CE9AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2130170229576587004A80BF93EA0A43 /* PBXTargetDependency */,
+			);
+			name = "Pods-STRouterSwift_Tests";
+			productName = Pods_STRouterSwift_Tests;
+			productReference = 2B85742B00CD3AD587DA09DBD744CBD6 /* Pods-STRouterSwift_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		480817A292353ACA61A406CC4F1A8AC8 /* Pods-STRouterSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FFE0A8918181A3BE2E4DAAAE71E5CEE /* Build configuration list for PBXNativeTarget "Pods-STRouterSwift_Example" */;
+			buildPhases = (
+				22F9C35CD431892A772446896A72BC8E /* Headers */,
+				79AC96B49C198BA88E892DAB27DD8E09 /* Sources */,
+				465FDA5743CE806118110A304E76850A /* Frameworks */,
+				332039C3EF83487AE6EEFA11CD437269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43DF5FCA5DFF2A1AABFA132305CC769D /* PBXTargetDependency */,
+			);
+			name = "Pods-STRouterSwift_Example";
+			productName = Pods_STRouterSwift_Example;
+			productReference = F33DF51EC9FE756BC6F453F760CCF080 /* Pods-STRouterSwift_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CCBA06FEB6FE3B9F3A05993D273D49D /* STRouterSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD0F6D43635D9480EEAB55537817594 /* Build configuration list for PBXNativeTarget "STRouterSwift" */;
+			buildPhases = (
+				E244D3EB3612DD82AE529E2DF5EE60E1 /* Headers */,
+				88DBE06EEA1307E9F5DF8AC112B6D84E /* Sources */,
+				595B392BB24370DD9861E61647C60D55 /* Frameworks */,
+				C3EA0F8642656DC1205B5773E3ED4DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STRouterSwift;
+			productName = STRouterSwift;
+			productReference = 14F4673ADA87D7A52E1965E4D93ECFFB /* STRouterSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F00B8DD258DEE8B36C3585D9909F313A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				480817A292353ACA61A406CC4F1A8AC8 /* Pods-STRouterSwift_Example */,
+				2D6745674B57D202A326CBFDC4321BAA /* Pods-STRouterSwift_Tests */,
+				9CCBA06FEB6FE3B9F3A05993D273D49D /* STRouterSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		332039C3EF83487AE6EEFA11CD437269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EA0F8642656DC1205B5773E3ED4DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70696B6897F8FF7353C898DAC3CE9AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA38F027C315E5E67B380860583559E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8185E2BF901566837E10BCB460C365 /* Pods-STRouterSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AC96B49C198BA88E892DAB27DD8E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34EAA36EE0F57FD73CD2DE3767E58B9 /* Pods-STRouterSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DBE06EEA1307E9F5DF8AC112B6D84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA18F8165313391CBA6FF10D71D02A4 /* STRouter.swift in Sources */,
+				124CF4274F577FF863F5A151F52BDFB2 /* STRouterNavigatorProtocol.swift in Sources */,
+				A831C9CB3ADBA40DB63550B709646368 /* STRouterProtocol.swift in Sources */,
+				F54F803ADD3F86ADA04CCCB6BAEB4DCA /* STRouterSwift-dummy.m in Sources */,
+				727BF102FE091F41FEED2CA2BD893C39 /* STRouterTransitionType.swift in Sources */,
+				C72D8F8FFC1030647BCFB301B193B602 /* STRouterViewControllerType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2130170229576587004A80BF93EA0A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-STRouterSwift_Example";
+			target = 480817A292353ACA61A406CC4F1A8AC8 /* Pods-STRouterSwift_Example */;
+			targetProxy = 023F5174169A3A5C95C98A63193DD3B1 /* PBXContainerItemProxy */;
+		};
+		43DF5FCA5DFF2A1AABFA132305CC769D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = STRouterSwift;
+			target = 9CCBA06FEB6FE3B9F3A05993D273D49D /* STRouterSwift */;
+			targetProxy = 72642CB2B9AD3552DBCD94B95298E7D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8EF5DC9191CD90DE66509588F7259C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0F292263364A371244EB22C990546B /* STRouterSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/STRouterSwift/STRouterSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STRouterSwift/STRouterSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/STRouterSwift/STRouterSwift.modulemap";
+				PRODUCT_MODULE_NAME = STRouterSwift;
+				PRODUCT_NAME = STRouterSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A3E1EC8D92656F4A9123EBA51D22965C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B25688DB779360DDEF26B936B7FF649 /* Pods-STRouterSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-STRouterSwift_Tests/Pods-STRouterSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-STRouterSwift_Tests/Pods-STRouterSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AFDAAFAD347A8E40F36E010E17DA5F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD71149121ED372F3F5223088CCD301F /* STRouterSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/STRouterSwift/STRouterSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STRouterSwift/STRouterSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/STRouterSwift/STRouterSwift.modulemap";
+				PRODUCT_MODULE_NAME = STRouterSwift;
+				PRODUCT_NAME = STRouterSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C17CBC4F387BF00AB18C8EE3965B3351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC837AA4EDD9D4203F1E2AC9C1C6DB19 /* Pods-STRouterSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-STRouterSwift_Example/Pods-STRouterSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-STRouterSwift_Example/Pods-STRouterSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC1D6C8BBDCB91B042955CE17CAC018D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E99034334AC90B9CB4D3B4A75F3D0B /* Pods-STRouterSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-STRouterSwift_Example/Pods-STRouterSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-STRouterSwift_Example/Pods-STRouterSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7C74D3218E1031C606BCB24EC486479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620CE93CD3717EBEDCC638BC761C4AEC /* Pods-STRouterSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-STRouterSwift_Tests/Pods-STRouterSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-STRouterSwift_Tests/Pods-STRouterSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BD0F6D43635D9480EEAB55537817594 /* Build configuration list for PBXNativeTarget "STRouterSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDAAFAD347A8E40F36E010E17DA5F19 /* Debug */,
+				8EF5DC9191CD90DE66509588F7259C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FFE0A8918181A3BE2E4DAAAE71E5CEE /* Build configuration list for PBXNativeTarget "Pods-STRouterSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17CBC4F387BF00AB18C8EE3965B3351 /* Debug */,
+				CC1D6C8BBDCB91B042955CE17CAC018D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B67788316DB9E5A0F7DA8F28DE9D23FC /* Build configuration list for PBXNativeTarget "Pods-STRouterSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C74D3218E1031C606BCB24EC486479 /* Debug */,
+				A3E1EC8D92656F4A9123EBA51D22965C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
