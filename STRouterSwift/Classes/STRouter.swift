@@ -34,8 +34,12 @@ public final class STRouter: STRouterProtocol {
         }
         guard let from = (from as? UIViewController) ?? UIViewController.topMost else { return false }
         let path = Path(urlComponents.path)
-        self.navigators[path]?.navigate(from: from, using: transitionType, parameters: parameters)
-        return true
+        if let navigator = self.navigators[path] {
+            navigator.navigate(from: from, using: transitionType, parameters: parameters)
+            return true
+        } else {
+            return false
+        }
     }
     
 }
@@ -52,7 +56,6 @@ extension STRouter {
         public init(_ rawValue: String) {
             self.rawValue = rawValue
         }
-        
     }
 }
 

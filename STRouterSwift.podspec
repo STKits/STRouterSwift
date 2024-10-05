@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'STRouterSwift'
-  s.version          = '0.1.0'
-  s.summary          = 'Router.'
+  s.version          = '0.1.1'
+  s.summary          = 'Swift Router'
 
   s.description      = <<-DESC
-基于URL进行路由.
+基于URL进行路由
                        DESC
 
   s.homepage         = 'https://github.com/STKits/STRouterSwift'

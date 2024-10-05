@@ -42,13 +42,13 @@
 
 /* Begin PBXFileReference section */
 		11D1DE61C4BC1E6AEC86156BB6BE2CCC /* STRouterSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STRouterSwift-dummy.m"; sourceTree = "<group>"; };
-		14F4673ADA87D7A52E1965E4D93ECFFB /* STRouterSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = STRouterSwift; path = STRouterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F4673ADA87D7A52E1965E4D93ECFFB /* STRouterSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STRouterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1593A570177FC8FCA58597D8590F84EB /* Pods-STRouterSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STRouterSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		17755CB502A0A5EEBE74E0AC5443AB2B /* STRouterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STRouterProtocol.swift; path = STRouterSwift/Classes/STRouterProtocol.swift; sourceTree = "<group>"; };
 		1E17920F375AD25DEE6F709603DFFF82 /* STRouterSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STRouterSwift-umbrella.h"; sourceTree = "<group>"; };
 		267B4ABA86B60C72CA38511B2EB14061 /* Pods-STRouterSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STRouterSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2ABC39B04A144247A1052EC0248954A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2B85742B00CD3AD587DA09DBD744CBD6 /* Pods-STRouterSwift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-STRouterSwift_Tests"; path = Pods_STRouterSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ABC39B04A144247A1052EC0248954A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2B85742B00CD3AD587DA09DBD744CBD6 /* Pods_STRouterSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STRouterSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3717DB5BE5FB4E9B753D0FD4DAEDB3FF /* Pods-STRouterSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STRouterSwift_Example-Info.plist"; sourceTree = "<group>"; };
 		450308ED8C561CE32DD5AB5E28DC327D /* Pods-STRouterSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STRouterSwift_Tests-Info.plist"; sourceTree = "<group>"; };
 		454EB511D71DE708BBFB5882D4AB3798 /* Pods-STRouterSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-STRouterSwift_Example.modulemap"; sourceTree = "<group>"; };
@@ -58,16 +58,16 @@
 		57473A53B5F4104899A716DE6A757144 /* STRouterSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STRouterSwift-prefix.pch"; sourceTree = "<group>"; };
 		620CE93CD3717EBEDCC638BC761C4AEC /* Pods-STRouterSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STRouterSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6AF7D5510B200D8ABE91BDB4E63E96DA /* Pods-STRouterSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-STRouterSwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		6E82D48310E75B961B5665C797B73FBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6E82D48310E75B961B5665C797B73FBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7962DCE0D3D9D6588D32D81DBB16CB4A /* Pods-STRouterSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-STRouterSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7B25688DB779360DDEF26B936B7FF649 /* Pods-STRouterSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STRouterSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7C1970BC18233A0198821CEF5A8B28FD /* STRouterNavigatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STRouterNavigatorProtocol.swift; path = STRouterSwift/Classes/STRouterNavigatorProtocol.swift; sourceTree = "<group>"; };
 		85F2CDF527524A0FB59D207E7DF452BD /* STRouterTransitionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STRouterTransitionType.swift; path = STRouterSwift/Classes/STRouterTransitionType.swift; sourceTree = "<group>"; };
 		9D313FCCD65FFB11F6AA047DB947052E /* Pods-STRouterSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-STRouterSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6E99034334AC90B9CB4D3B4A75F3D0B /* Pods-STRouterSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STRouterSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A8393ABF9F4912B502030285322D25D7 /* STRouterSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = STRouterSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8393ABF9F4912B502030285322D25D7 /* STRouterSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = STRouterSwift.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		AA0F292263364A371244EB22C990546B /* STRouterSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STRouterSwift.release.xcconfig; sourceTree = "<group>"; };
 		BC8696C2FE5D8033A0B556ED4F07B408 /* Pods-STRouterSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-STRouterSwift_Tests.modulemap"; sourceTree = "<group>"; };
 		CB19312C7FBB16BF9226BC014B791493 /* STRouterSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = STRouterSwift.modulemap; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		D9F3B08DB7C98C6D00675227FB3305D4 /* Pods-STRouterSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-STRouterSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DE4E50DECA09DAE6F4551C2014E629E3 /* STRouterSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "STRouterSwift-Info.plist"; sourceTree = "<group>"; };
 		E44DC4DFE5F5779E82678D13B2B0D294 /* Pods-STRouterSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-STRouterSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F33DF51EC9FE756BC6F453F760CCF080 /* Pods-STRouterSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-STRouterSwift_Example"; path = Pods_STRouterSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33DF51EC9FE756BC6F453F760CCF080 /* Pods_STRouterSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STRouterSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8F4DCE007707C7FBCD22493BDC3525 /* STRouterViewControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STRouterViewControllerType.swift; path = STRouterSwift/Classes/STRouterViewControllerType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -201,9 +201,9 @@
 		F00B8DD258DEE8B36C3585D9909F313A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F33DF51EC9FE756BC6F453F760CCF080 /* Pods-STRouterSwift_Example */,
-				2B85742B00CD3AD587DA09DBD744CBD6 /* Pods-STRouterSwift_Tests */,
-				14F4673ADA87D7A52E1965E4D93ECFFB /* STRouterSwift */,
+				F33DF51EC9FE756BC6F453F760CCF080 /* Pods_STRouterSwift_Example.framework */,
+				2B85742B00CD3AD587DA09DBD744CBD6 /* Pods_STRouterSwift_Tests.framework */,
+				14F4673ADA87D7A52E1965E4D93ECFFB /* STRouterSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -281,7 +281,7 @@
 			);
 			name = "Pods-STRouterSwift_Tests";
 			productName = Pods_STRouterSwift_Tests;
-			productReference = 2B85742B00CD3AD587DA09DBD744CBD6 /* Pods-STRouterSwift_Tests */;
+			productReference = 2B85742B00CD3AD587DA09DBD744CBD6 /* Pods_STRouterSwift_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		480817A292353ACA61A406CC4F1A8AC8 /* Pods-STRouterSwift_Example */ = {
@@ -300,7 +300,7 @@
 			);
 			name = "Pods-STRouterSwift_Example";
 			productName = Pods_STRouterSwift_Example;
-			productReference = F33DF51EC9FE756BC6F453F760CCF080 /* Pods-STRouterSwift_Example */;
+			productReference = F33DF51EC9FE756BC6F453F760CCF080 /* Pods_STRouterSwift_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9CCBA06FEB6FE3B9F3A05993D273D49D /* STRouterSwift */ = {
@@ -318,7 +318,7 @@
 			);
 			name = STRouterSwift;
 			productName = STRouterSwift;
-			productReference = 14F4673ADA87D7A52E1965E4D93ECFFB /* STRouterSwift */;
+			productReference = 14F4673ADA87D7A52E1965E4D93ECFFB /* STRouterSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
